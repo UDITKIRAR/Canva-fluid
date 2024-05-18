@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import styles from './App.module.css';
 import { getImageUrl } from './utils';
 import { Navbar } from './components/Navbar/Navbar';
@@ -6,26 +7,31 @@ import { About } from './components/About/About';
 import { Experience } from './components/Experience/Experience';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/contact';
-import './index.css'
+import './index.css';
 import Chrome from './components/Chrome';
 import Cards from './components/Cards';
+import Canvas from './components/Canvas';
 
 function App() {
-   const img = getImageUrl('projects/project.png')
+  const img = getImageUrl('projects/project.png');
+
   return (
-    <canva>
+    <>
+     <Canvas/>
     <div className={styles.App}>
-    <Navbar></Navbar>
-    <Hero></Hero>
-    <About></About>
-    <Experience></Experience>
-    <Projects></Projects>
-    <Chrome></Chrome>
-    <Cards></Cards>
-    <Contact></Contact>
-    </div>
-    </canva>
-  )
+     
+      <Navbar />
+      {/* <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Chrome />
+      <Cards />
+      <Contact /> */}
+
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;

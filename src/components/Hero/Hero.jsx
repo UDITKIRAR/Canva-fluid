@@ -3,7 +3,7 @@ import styles from "./hero.module.css";
 import { getImageUrl } from '../../utils';
 export const Hero = () => {
    return (
-      <div className='flex-col justify-center items-center md:items-start md:justify-start md:flex-row flex gap-5 p-6 mt-11'>
+      <div className='flex-col z-21 justify-center pointers-none items-center md:items-start md:justify-start md:flex-row flex gap-5 p-6 mt-11'>
          <div className='flex flex-col   text-xl   text-white'>
 
             <h1 className='text-transparent  bg-gradient-to-r-custom  bg-clip-text'>Transform  </h1>
