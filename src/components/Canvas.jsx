@@ -12,7 +12,7 @@ const Canvas = () => {
     },[])
     
   return (
-    <canvas id="canna" className='bg-black h-full w-full' style={{ position: 'fixed', zIndex: 1 }}>
+    <canvas id="canna" className='bg-black h-full w-full ' style={{ position: 'fixed', zIndex: 1 }}>
     </canvas>
   )
 }
