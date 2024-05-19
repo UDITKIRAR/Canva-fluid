@@ -10,7 +10,7 @@ export default {
         'custom-purple': '#EEE5FF',
       },
       backgroundImage: {
-        'gradient-to-r-custom': 'linear-gradient(90deg, #F87600 0%, #5E12ff 100%)',
+        'gradient-to-r-custom': 'linear-gradient(90deg, #F87516 0%, #5E11FF 100%)',
       },
     },
   },

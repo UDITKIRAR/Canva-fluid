@@ -8,48 +8,86 @@ import { Projects } from "../Projects/Projects";
 import Chrome from "../Chrome";
 import Cards from "../Cards";
 import { Contact } from "../Contact/contact";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export const Navbar = () => {
-  const [show,setshow]=useState(false);
   return (
-    <div>
-      
-       
-       <nav style={{ pointerEvents: show ? 'none' : 'auto' }} className={styles.navbar}>
-       <button  className="  text-white mt-[-2]" onClick={(e)=>{
-           setshow(!show);
-           setTimeout(()=>{
-            setshow(false);
-           },10000)
-           setTimeout(()=>{
-            setshow(true);
-           },10)
-      }}>ToggleEffect</button>
-        <div className="flex justify-between items-center w-full px-3">
-          <img src={getImageUrl("hero/MotionArtEffect-logo.png")} />
+    <div className="flex flex-col ">
+      <nav className="order-3 flex  flex-col md:flex-row md:justify-between  md:mt-10   ">
+        <div className="flex flex-col-reverse ">
+          <div className={styles.navbar3}>
+            <div className=" mt-10 pointers-event-auto  p-5 flex flex-col gap-4 col-span-3">
+              <p className="text-custom-purple text-3xl tracking-widest  font-bold">
+                Turn Your Cursor Into A Colorful Magic <br /> Wand & Charm Your
+                Visitors
+              </p>
+              <div className="mt-3 text-custom-purple w-full ">
+                <p className=" text-lg lg:whitespace-nowrap text-[#b8b0c9]  ">
+                  Motion Art for Elementor is a groundbreaking plugin that
+                  empowers you to effortlessly infuse{" "}
+                </p>
+                <p className=" text-lg text-[#b8b0c9]  lg:whitespace-nowrap  ">
+                  your website with visually stunning motion art elements.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex  z-100 relative justify-between items-center w-full px-3">
+            <div className="border-3px   rounded-md w-full h-auto flex justify-center md:block mt-4">
+              <div className="p-4 pointer-event-auto relative px-18 inline-flex justify-center items-center gap-6  bg-gradient-to-r from-indigo-800 to-orange-500 rounded-2xl px-8">
+                <div className=" ">
+                  <a
+                    className="text-white text-xl "
+                    href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891"
+                  >
+                    Purchase from Envato
+                  </a>
+                </div>
+                <div>
+                  <FaArrowRightLong className="text-white text-xl font-thin" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className={styles.navbar3}> */}
+        <div style={{}} className={`${styles.img}  relative pointers-event-auto text-gradient z-1 flex justify-center items-center pt-8`}>
+          <img
+            src={getImageUrl("hero/motionarteffect-img5.png")}
+            alt="none"
+          ></img>
+        </div>
+        {/* </div> */}
+      </nav>
+
+      <nav className="order-1">
+        <div className="flex mt-20 z-0 relative justify-between items-center w-full px-3">
+          <img
+            className="cursor-pointer"
+            src={getImageUrl("hero/MotionArtEffect-logo.png")}
+          />
           <div>
-            <div className="px-9 hidden lg:block py-3 bg-white text-black pointers-events-auto text-lg rounded-md border-2 border-white transition duration-600 ease-out cursor-pointer hover:bg-transparent hover:text-white hover:border-2 hover:border-white">
-              <a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891"
-              onMouseLeave={()=>{
-                 setshow(true);
-              }}  onMouseEnter={()=>{
-                setshow(false);
-              }}      >
-            
+            <div className="px-9 hidden  lg:block py-[11px] bg-white text-black text-lg rounded-md border-2 border-white transition duration-800 ease-out cursor-pointer hover:bg-transparent hover:text-white hover:border-2 hover:border-white">
+              <a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891">
                 Purchase Now
               </a>
             </div>
           </div>
         </div>
+      </nav>
 
+      <nav className={styles.navbar}>
         <Hero />
         <About />
-        <Experience />
+      </nav>
+
+      <nav className={styles.navbar1}>
+        {/* <Experience /> */}
         <Projects />
         <Chrome />
         <Cards />
-        <Contact />
       </nav>
+      {/* <Contact /> */}
     </div>
   );
 };

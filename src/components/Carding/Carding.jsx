@@ -3,7 +3,7 @@ import { getImageUrl } from '../../utils'
 const Carding = (props) => {
   return (
     
-    <div  style={{background: "linear-gradient(to bottom, #0f0810, #0f0830)"}} className='    pb-5 px-8 w-full  md:h-[400px]   md:flex-1  flex flex-col  md:py-1  rounded-3xl  gap-5'>
+    <div  style={{background: "linear-gradient(to bottom, #0f0821, #241d34)"}} className=' border-2 border-[#332c42]    pb-4 px-8 w-full  md:h-[390px]   md:flex-1  flex flex-col  md:py-1  rounded-3xl  gap-5'>
  
     <div className='w-full'>
     <img className='ml-[-2.25rem]' src={getImageUrl(props.val)} alt='none'></img>
