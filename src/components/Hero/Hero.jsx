@@ -7,7 +7,7 @@ export const Hero = () => {
     };
    return (
       <div>
-      <div className='flex-col  justify-center items-center md:items-start md:justify-start md:flex-row flex gap-5 p-6 mt-8'>
+      <div className='flex-col  justify-center items-center md:items-start md:justify-start md:flex-row flex gap-5 p-6 mt-4'>
          <div className='flex flex-col   text-xl   text-white'>
 
             <h1 className='text-transparent  bg-gradient-to-r-custom font-medium bg-clip-text'>Transform  </h1>
