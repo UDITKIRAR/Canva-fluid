@@ -46,10 +46,10 @@ function App() {
              <p >© 2023 Copywrite. All rights reserved by QodeMatrix</p>
              <div className='flex  flex-row gap-8  justify-evenly'>
                  <div>
-                 <a className='' href='https://qodematrix.com/docs/motion-art-for-elementor/'>Documentation</a>
+                 <a className='hover:text-white ' href='https://qodematrix.com/docs/motion-art-for-elementor/'>Documentation</a>
                  </div>
                  <div>
-                 <a href='https://support.qodematrix.com/login'>Support</a>
+                 <a className='hover:text-white ' href='https://support.qodematrix.com/login'>Support</a>
                  </div>
              </div>
         </div>
