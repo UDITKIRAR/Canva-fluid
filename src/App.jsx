@@ -42,7 +42,7 @@ function App() {
     
     </div>
     <div className='pointers-event-auto z-100 relative p-[-100px]  '>
-    <div style={gradientStyle} className=' md:mt-32 mt-4 text-[#EEE5FFBD] justify-start md:p-5   text-sm md:pb-3  gap-4 md:mb-[-1rem] mb-[0rem] flex flex-col flex-col-reverse content-end items-center md:flex-row md:justify-between md:px-2 p-5 pb-3 gap-6 ' >
+    <div style={gradientStyle} className=' md:mt-32 mt-3 text-[#EEE5FFBD] justify-start md:p-5   text-sm md:pb-3  gap-4 md:mb-[-1rem] mb-[0rem] flex flex-col flex-col-reverse content-end items-center md:flex-row md:justify-between md:px-2 p-5 pb-3 gap-6 ' >
              <p >© 2023 Copywrite. All rights reserved by QodeMatrix</p>
              <div className='flex  flex-row gap-8  justify-evenly'>
                  <div>

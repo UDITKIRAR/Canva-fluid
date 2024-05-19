@@ -17,16 +17,16 @@ export const Navbar = () => {
         <div className="flex flex-col-reverse ">
           <div className={styles.navbar3}>
             <div className=" mt-10 pointers-event-auto  p-5 flex flex-col gap-4 col-span-3">
-              <p className="text-custom-purple text-3xl tracking-widest  font-bold">
+              <p className="text-custom-purple md:text-4xl text-3xl tracking-wide leading-10 md:font-bold">
                 Turn Your Cursor Into A Colorful Magic <br /> Wand & Charm Your
                 Visitors
               </p>
               <div className="mt-3 text-custom-purple w-full ">
-                <p className=" text-lg lg:whitespace-nowrap text-[#b8b0c9]  ">
+                <p className=" md:text-lg lg:whitespace-nowrap text-[#b8b0c9]  ">
                   Motion Art for Elementor is a groundbreaking plugin that
                   empowers you to effortlessly infuse
                 </p>
-                <p className=" text-lg text-[#b8b0c9]  lg:whitespace-nowrap  ">
+                <p className=" md:text-lg text-[#b8b0c9]  lg:whitespace-nowrap  ">
                   your website with visually stunning motion art elements.
                 </p>
               </div>
