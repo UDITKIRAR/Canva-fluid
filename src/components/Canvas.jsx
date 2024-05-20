@@ -7,7 +7,7 @@ const Canvas = () => {
         const canvas = document.getElementById('canna');
         canvasbg(canvas);
         
-        console.log(canvas,"from ghdfty")
+        console.log(canvas,"from plugin")
 
     },[])
     
