@@ -624,12 +624,12 @@ function resizeCanvas() {
   }
 }
 
-canvas.addEventListener('mousemove', e => {
+window.addEventListener('mousemove', e => {
   pointers[0].moved = pointers[0].down;
-  pointers[0].dx = (e.offsetX - pointers[0].x) * 10.0;
-  pointers[0].dy = (e.offsetY - pointers[0].y) * 10.0;
-  pointers[0].x = e.offsetX;
-  pointers[0].y = e.offsetY;
+  pointers[0].dx = (e.clientX - pointers[0].x) * 10.0;
+  pointers[0].dy = (e.clientY - pointers[0].y) * 10.0;
+  pointers[0].x = e.clientX ;
+  pointers[0].y = e.clientY;
 });
 
 canvas.addEventListener('touchmove', e => {
@@ -645,7 +645,7 @@ canvas.addEventListener('touchmove', e => {
   }
 }, false);
 
-canvas.addEventListener('mousemove', () => {
+window.addEventListener('mousemove', () => {
   pointers[0].down = true;
   pointers[0].color = [Math.random() + 0.2, Math.random() + 0.2, Math.random() + 0.2];
 });
@@ -676,4 +676,5 @@ window.addEventListener('touchend', e => {
   if (touches[i].identifier == pointers[j].id)
   pointers[j].down = false;
 });
-}
+
+ }
