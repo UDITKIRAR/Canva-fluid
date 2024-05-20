@@ -14,20 +14,18 @@ export const Navbar = () => {
   return (
     <div className="flex flex-col ">
       <nav className="order-3 flex  flex-col md:flex-row md:justify-between  md:mt-10   ">
-        <div className="flex flex-col-reverse ">
+        <div className="flex flex-col-reverse  ">
           <div className={styles.navbar3}>
-            <div className=" mt-10 pointers-event-auto  p-5 flex flex-col gap-4 col-span-3">
-              <p className="text-custom-purple md:text-4xl text-3xl tracking-wide leading-10 md:font-bold">
-                Turn Your Cursor Into A Colorful Magic <br /> Wand & Charm Your
+            <div className=" mt-10 pointers-event-auto  p-4 flex flex-col gap-4 col-span-3">
+              <p className="text-custom-purple lg:text-4xl text-[25px] tracking-wide leading-10 font-bold ">
+               Turn Your Cursor Into A Colorful Magic<br /> Wand & Charm Your
                 Visitors
               </p>
-              <div className="mt-3 text-custom-purple w-full ">
-                <p className=" md:text-lg lg:whitespace-nowrap text-[#b8b0c9]  ">
+              
+              <div className="mt-3 text-custom-purple ">
+                <p className=" lg:text-lg md:whitespace-wrap text-[#b8b0c9]  ">
                   Motion Art for Elementor is a groundbreaking plugin that
-                  empowers you to effortlessly infuse
-                </p>
-                <p className=" md:text-lg text-[#b8b0c9]  lg:whitespace-nowrap  ">
-                  your website with visually stunning motion art elements.
+                  empowers you to effortlessly infuse  your website with visually stunning motion art elements.
                 </p>
               </div>
             </div>
@@ -51,8 +49,8 @@ export const Navbar = () => {
           </div>
         </div>
         {/* <div className={styles.navbar3}> */}
-        <div style={{}} className={`${styles.img}  relative pointers-event-auto text-gradient z-1 flex justify-center items-center pt-8`}>
-          <img
+        <div style={{}} className={`${styles.img}   relative pointers-event-auto text-gradient z-1 flex justify-center  items-center md:ml-24  pt-8`}>
+          <img className=" md:w-[300px] md:h-auto "
             src={getImageUrl("hero/motionarteffect-img5.png")}
             alt="none"
           ></img>
@@ -61,7 +59,7 @@ export const Navbar = () => {
       </nav>
 
       <nav className="order-1">
-        <div className="flex mt-20 z-0 relative justify-between items-center w-full px-3">
+        <div className="flex md:mt-18 mt-20 z-0 relative justify-between items-center w-full px-3">
           <img
             className="cursor-pointer"
             src={getImageUrl("hero/MotionArtEffect-logo.png")}
