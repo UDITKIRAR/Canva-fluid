@@ -16,8 +16,8 @@ export const Navbar = () => {
 
   };
   return (
-    <div className="flex flex-col mt-4 ">
-      <nav className="order-3 flex  flex-col md:flex-row md:justify-between  md:mt-20   ">
+    <div className="flex flex-col  ">
+      <nav className="order-3 flex  flex-col md:flex-row md:justify-between mt-18 md:mt-16   ">
         <div className="flex flex-col-reverse  ">
           <div className={styles.navbar3}>
             <div className=" mt-10 pointers-event-auto  p-4 flex flex-col gap-4 col-span-3">
