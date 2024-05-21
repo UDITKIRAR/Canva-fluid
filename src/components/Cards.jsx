@@ -30,7 +30,7 @@ const Cards = () => {
           Elementor seamlessly integrates with the Elementor platform, providing
           you{" "}
         </p>
-        <p className=" text-[#EEE5FFBD]   md:text-lg text-center ">
+        <p className=" text-[#EEE5FFBD] mb-2 md:mb-6  md:text-lg text-center ">
           {" "}
           with a seamless and intuitive experience.
         </p>
