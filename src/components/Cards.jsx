@@ -40,7 +40,7 @@ const Cards = () => {
                  <Carding val={"hero/motionarteffect-img6.png"} h={"100% Responsive"} p={"Create a consistent visual experience across all devices."}  ></Carding>
                  <Carding val={"hero/motionarteffect-img7.png"} h={"User Friendly Interface"} p={"Ensure a smooth experience for both applicants and administrators."}></Carding>
         </div> */}
-      <div className="mt-4 mx-2 grid gap-6 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-2 lg:grid-rows-1 rounded-xl">
+      <div className="mt-4 mx-2 grid  gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-2 lg:grid-rows-1 rounded-xl">
       <Carding
         val={"hero/motionarteffect-img9.png"}
         h={"Light Weight"}
@@ -53,10 +53,10 @@ const Cards = () => {
       />
       <div
         style={{ background: "linear-gradient(to bottom, #0f0821, #241d34)" }}
-        className="border-2 md:col-span-2 lg:col-span-1 md:row-start-2 lg:row-start-auto border-[#332c42] px-6 lg:w-full   flex flex-col  pb-10 md:h-[330px] lg:h-auto rounded-3xl lg:pb-0 gap-5"
+        className="border-2 md:col-span-2 lg:col-span-1 md:row-start-2 lg:row-start-auto border-[#332c42] px-6 lg:w-full   flex flex-col  pb-10 md:h-[350px]   rounded-3xl lg:pb-0 gap-5"
       >
         <div className="ml-[-2.25rem]">
-          <img src={getImageUrl("hero/motionarteffect-img6.png")} alt="none"></img>
+          <img src={getImageUrl("hero/motionarteffect-img7.png")} alt="none"></img>
         </div>
         <h1 className="font-bold text-custom-purple text-xl md:text-2xl">
           User Friendly Interface
