@@ -21,8 +21,8 @@ const Cards = () => {
           Features
         </h1>
       </div>
-      <div className="">
-        <p className=" text-[#EEE5FFBD]   md:whitespace-nowrap  md:text-lg text-center ">
+      <div style={{fontFamily:'Outfit'}} className="text-[#EEE5FFBD]  md:leading-8 leading-7 mx-4 md:mx-48  md:text-lg text-center">
+        {/* <p className=" text-[#EEE5FFBD]   md:whitespace-nowrap  md:text-lg text-center ">
           Whether you're a seasoned web designer or just starting out, Motion
           Art for
         </p>
@@ -33,7 +33,11 @@ const Cards = () => {
         <p className=" text-[#EEE5FFBD] mb-2 md:mb-6  md:text-lg text-center ">
           {" "}
           with a seamless and intuitive experience.
-        </p>
+        </p> */}
+        Whether you're a seasoned web designer or just starting out, Motion Art for Elementor seamlessly integrates with the Elementor platform, providing you with a seamless and intuitive experience.
+
+
+        
       </div>
       {/* <div className='md:mt-16 mt-4 mx-2  flex flex-col  items-center flex-wrap  md:flex-nowrap  md:flex-row gap-4 md:justify-evenly rounded-xl'>
                  <Carding val={"hero/motionarteffect-img9.png"} h={"Light Weight"} p={"Motion Art for Elementor is designed to be lightweight."}></Carding>
