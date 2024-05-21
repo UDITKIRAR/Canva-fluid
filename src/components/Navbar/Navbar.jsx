@@ -21,7 +21,7 @@ export const Navbar = () => {
         <div className="flex flex-col-reverse  ">
           <div className={styles.navbar3}>
             <div className=" mt-10 pointers-event-auto  p-4 flex flex-col gap-4 col-span-3">
-              <p className="text-custom-purple md:text-4xl text-[26px] tracking-wide leading-10 font-bold ">
+              <p className="text-custom-purple lg:text-4xl md:text-3xl text-[26px] tracking-wide md:leading-relaxed font-bold   ">
                Turn Your Cursor Into A Colorful Magic Wand & Charm Your
                 Visitors
               </p>
