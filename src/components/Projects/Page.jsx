@@ -8,7 +8,7 @@ const Page = () => {
           <p className=' leading-7 text-[#b8b0c9] '>Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation.</p>
           
           <div className=''>
-          <img className='' src={getImageUrl("hero/motionarteffect-img10.png")} alt='none'></img>
+          <img className='h-auto' src={getImageUrl("hero/motionarteffect-img10.png")} alt='none'></img>
         
           </div>
    
