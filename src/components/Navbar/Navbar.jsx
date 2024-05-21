@@ -11,14 +11,18 @@ import { Contact } from "../Contact/contact";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export const Navbar = () => {
+  const gradientStyle = {
+    background: 'linear-gradient(90deg, #5e11f5 0%, #5e11f5 30%,#F87516 100%)'
+
+  };
   return (
     <div className="flex flex-col mt-4 ">
       <nav className="order-3 flex  flex-col md:flex-row md:justify-between  md:mt-20   ">
         <div className="flex flex-col-reverse  ">
           <div className={styles.navbar3}>
             <div className=" mt-10 pointers-event-auto  p-4 flex flex-col gap-4 col-span-3">
-              <p className="text-custom-purple lg:text-4xl text-[25px] tracking-wide leading-10 font-bold ">
-               Turn Your Cursor Into A Colorful Magic<br /> Wand & Charm Your
+              <p className="text-custom-purple md:text-4xl text-[26px] tracking-wide leading-10 font-bold ">
+               Turn Your Cursor Into A Colorful Magic Wand & Charm Your
                 Visitors
               </p>
               
@@ -32,10 +36,11 @@ export const Navbar = () => {
           </div>
           <div className="flex  z-100 relative justify-between items-center w-full px-3">
             <div className="border-3px   rounded-md w-full h-auto flex justify-center md:block mt-4">
-              <a  href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" className="p-4 pointer-event-auto relative px-18 inline-flex justify-center items-center gap-6  bg-gradient-to-r from-indigo-800 to-orange-500 rounded-2xl px-8">
+              <a style={gradientStyle}  href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" className="p-4 pointer-event-auto relative px-18 inline-flex justify-center items-center gap-6   rounded-2xl px-8">
                 <div className=" ">
-                  <a
-                    className="text-white text-xl "
+                  <a style={{fontFamily:'Outfit'
+                  }}
+                    className="text-white text-[21px]  "
                     href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891"
                   >
                     Purchase from Envato

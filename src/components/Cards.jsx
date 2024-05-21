@@ -53,7 +53,7 @@ const Cards = () => {
       />
       <div
         style={{ background: "linear-gradient(to bottom, #0f0821, #241d34)" }}
-        className="border-2 md:col-span-2 lg:col-span-1 md:row-start-2 lg:row-start-auto border-[#332c42] px-6 lg:w-full   flex flex-col  pb-10 md:h-[350px] lg:h-auto rounded-3xl lg:pb-0 gap-5"
+        className="border-2 md:col-span-2 lg:col-span-1 md:row-start-2 lg:row-start-auto border-[#332c42] px-6 lg:w-full   flex flex-col  pb-10 md:h-[330px] lg:h-auto rounded-3xl lg:pb-0 gap-5"
       >
         <div className="ml-[-2.25rem]">
           <img src={getImageUrl("hero/motionarteffect-img6.png")} alt="none"></img>
